@@ -173,7 +173,7 @@ deleteButton.addEventListener("click",function(){
 })
 plusSubtract.addEventListener("click",function(){
     if(res===0){
-        y=Number(y)*(-1);
+        y+="-";
         result.innerText=y;
     }
     else{
